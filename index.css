@@ -1,0 +1,142 @@
+/* general settings */
+  html, body {
+      /*padding: 0;*/
+      margin: 0;
+      background-size: cover;
+      background-color: rgba(24, 188, 156, 0.9);
+      color: #2c3e50;
+      /*font-family: "Abel";*/
+  }
+
+/* header */
+  div.header {
+    z-index: 1;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    /*padding: 5px;*/
+  }
+
+  div.header.row {
+    /*padding: 10px 75px;*/
+    text-align: center;
+  }
+
+  nav.navbar.navbar-expand-sm.navbar-custom.bg-dark.navbar-dark{
+    margin: 0;
+    /*position: fixed;*/
+    width: 100%;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 18px;
+  }
+  
+  div{
+    margin: 0;
+  }
+
+  div.row {
+    margin: 10px 20px;
+    text-align: center;
+  }
+
+  div.content{
+    padding: 5px;
+  }
+
+  div#pp{
+    margin-top: 50px;
+  }
+
+  h1 {
+  	/*color: #59b300;*/
+    text-align: center;
+    color: white;
+  }
+
+  h2 {
+    text-align: center;
+    margin: 5px 5px;
+  }
+
+  p {
+    text-align: justify;
+    font-size: 20px;
+  }
+
+/*  div.content {
+    margin: 50px;
+  }*/
+
+/* home */
+  div#Pres {
+    padding: 20px;
+    padding-top: 55px;
+    color: #2c3e50;
+  }
+  div#Parc {
+    background-color: white;
+    color: #2c3e50;
+  }
+  div#A1 {
+    padding: 20px;
+    padding-top: 55px;
+  }
+  div#A2 {
+    padding: 20px;
+    padding-top: 55px;
+  }
+  div#A3 {
+    padding: 20px;
+    padding-top: 55px;
+  }
+  div#proj {
+    padding: 20px;
+    padding-top: 55px;
+  }
+  div#fiab {
+    padding: 20px;
+    padding-top: 55px;
+    background-color: white;
+  }
+  div#autr {
+    padding: 20px;
+    padding-top: 55px;
+  }
+
+/*  h3 {
+    color: white;
+    text-align: center;
+    padding: 10px 0 75px 0;
+  }*/
+
+  .line-separator{
+    height: 2px;
+    width: 75%;
+    margin: auto;
+    text-align: center;
+    background: grey;
+    border-bottom:1px solid white;
+  }
+
+/* footer */
+  div.footer {
+    margin: 10px;
+    padding-top: 20px;
+  }
+
+  button#myBtn {
+    display:none; position: fixed; right: 30px; bottom: 20px;
+    border: none;
+    outline: none;
+    background-color: rgba(33,37,41,.5);
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    line-height: 10px;
+    font-size: 20px;
+  }
